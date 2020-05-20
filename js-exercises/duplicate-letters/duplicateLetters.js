@@ -1,6 +1,5 @@
 
-function duplicateLetters(...args) {
-  const str = args[0];
+function duplicateLetters(str) {
   const strObj = [];
   let maxFrequency = 1;
   for (const char of str) {
