@@ -1,10 +1,7 @@
 function longestWordInString(str) {
   const words = str.split(' ');
-  let lengthOfLongestWord = 0;
-  for (const word of words) {
-    lengthOfLongestWord = word.length > lengthOfLongestWord ? word.length : lengthOfLongestWord;
-  }
-  return lengthOfLongestWord;
+  const lengths = words.map(({ length }) => length);
+  return Math.max(...lengths);
 }
 
 export { longestWordInString };
