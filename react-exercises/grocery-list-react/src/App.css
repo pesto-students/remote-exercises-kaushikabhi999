@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.cursor_pointer {
+    cursor: pointer;
+}
+.mw-50per{
+    max-width: 50%;
+}
+.m-30{
+    margin: 30px;
+}
+.mw-300{
+    max-width: 300px;
+}
